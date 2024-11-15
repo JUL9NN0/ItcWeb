@@ -1,0 +1,57 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(111,206,226,1) 0%, rgba(255,255,255,1) 100%); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1 {
+    text-align: center;
+    font-size: 138px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    font-family: Roboto, sans-serif;
+    transition: color 0.5s;
+
+}
+h1:hover {
+    color: #64c5fa;
+}
+h1:active {
+    color: gray;
+}
+img {
+    height: 100px;
+}
+a {
+    font-size: 40px;
+    font-family: Roboto;
+    text-decoration: none;
+    color: black;
+    font-weight: bold   ;
+    text-align: center;
+}
+.Buttons {
+    padding-left: 100px;
+}
+#about {
+    padding-left: 100px;
+}
+#about:hover {
+    text-decoration: underline;
+}
+#what {
+    padding-left: 50px;
+    transition: 0.5s;
+
+}
+#what:hover {
+    font-size: 50px;
+    color: #64c5fa;
+}
